@@ -1194,6 +1194,42 @@ pre .javascript .function {
   margin: 0 10px;
   list-style: none;
 }
+.menu .menu-item .category-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu .menu-item .category-list-item {
+  margin: 0 0 0 50px;
+  text-align: left;
+  list-style: initial;
+  line-height: 30px;
+}
+.menu .menu-item .category-list-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: inherit;
+  display: inline-block;
+  width: 140px;
+  vertical-align: bottom;
+  padding: 0;
+}
+.menu .menu-item .category-list-child {
+  display: none;
+}
+.menu .menu-item .category-list-count {
+  font-size: 2px;
+  color: #bbb;
+}
+.menu .menu-item .category-list-count:before {
+  display: inline;
+  content: " (";
+}
+.menu .menu-item .category-list-count:after {
+  display: inline;
+  content: ") ";
+}
 @media screen and (max-width: 767px) {
   .menu .menu-item {
     margin-top: 10px;
@@ -1943,7 +1979,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ace8f0;
+  background: #8509af;
 }
 .links-of-blogroll {
   font-size: 13px;
