@@ -5,7 +5,8 @@
     <url>%2F2018%2F08%2F14%2Fgame01.1%2F</url>
     <content type="text"><![CDATA[Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen]]></content>
       <categories>
-        <category>categories/game - 游戏-01</category>
+        <category>games</category>
+        <category>game1.1</category>
       </categories>
       <tags>
         <tag>games.1.1 - 娱乐 - 游戏 - LOL.1.1</tag>
@@ -16,7 +17,8 @@
     <url>%2F2018%2F08%2F14%2Fgame01%2F</url>
     <content type="text"><![CDATA[Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen]]></content>
       <categories>
-        <category>categories/game - 游戏-01</category>
+        <category>games</category>
+        <category>game0.1</category>
       </categories>
       <tags>
         <tag>tags - 娱乐 - 游戏 - LOL</tag>
