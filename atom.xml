@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>张豪个人博客</title>
+  
+  <subtitle>技术网站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-08-16T12:39:33.549Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>张豪</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/08/16/404/"/>
+    <id>http://yoursite.com/2018/08/16/404/</id>
+    <published>2018-08-16T12:39:14.016Z</published>
+    <updated>2018-08-16T12:39:33.549Z</updated>
+    
+    <content type="html"><![CDATA[<!DOCTYPE HTML><html><head>    <meta http-equiv="content-type" content="text/html;charset=utf-8;">    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    <meta name="robots" content="all">    <meta name="robots" content="index,follow">    <link rel="stylesheet" type="text/css" href="https://qzone.qq.com/gy/404/style/404style.css"></head><body>    <script type="text/plain" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="/" homepagename="回到我的主页">  </script>    <script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>    <script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script></body></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html;charset=utf-8;&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/08/14/hello-world%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2018/08/14/hello-world - 副本/</id>
+    <published>2018-08-14T15:27:20.645Z</published>
+    <updated>2018-08-14T15:31:33.828Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="categories11 - 文章-03 - Hello World" scheme="http://yoursite.com/categories/categories11-%E6%96%87%E7%AB%A0-03-Hello-World/"/>
+    
+    
+      <category term="tags - English" scheme="http://yoursite.com/tags/tags-English/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏-01</title>
+    <link href="http://yoursite.com/2018/08/14/game01%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2018/08/14/game01 - 副本/</id>
+    <published>2018-08-14T15:27:20.572Z</published>
+    <updated>2018-08-14T15:31:25.091Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="games1" scheme="http://yoursite.com/categories/games1/"/>
+    
+      <category term="game0.1" scheme="http://yoursite.com/categories/games1/game0-1/"/>
+    
+    
+      <category term="tags - 娱乐 - 游戏 - LOL" scheme="http://yoursite.com/tags/tags-%E5%A8%B1%E4%B9%90-%E6%B8%B8%E6%88%8F-LOL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏-1.1</title>
+    <link href="http://yoursite.com/2018/08/14/game01.1%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2018/08/14/game01.1 - 副本/</id>
+    <published>2018-08-14T15:27:20.569Z</published>
+    <updated>2018-08-14T15:31:28.543Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="games11" scheme="http://yoursite.com/categories/games11/"/>
+    
+      <category term="game1.1" scheme="http://yoursite.com/categories/games11/game1-1/"/>
+    
+    
+      <category term="games.1.1 - 娱乐 - 游戏 - LOL.1.1" scheme="http://yoursite.com/tags/games-1-1-%E5%A8%B1%E4%B9%90-%E6%B8%B8%E6%88%8F-LOL-1-1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章-01</title>
+    <link href="http://yoursite.com/2018/08/14/article001%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2018/08/14/article001 - 副本/</id>
+    <published>2018-08-14T15:27:20.561Z</published>
+    <updated>2018-08-14T12:50:59.020Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="articles - 文章001" scheme="http://yoursite.com/categories/articles-%E6%96%87%E7%AB%A0001/"/>
+    
+    
+      <category term="articles - 小说 - 散文 - 诗集" scheme="http://yoursite.com/tags/articles-%E5%B0%8F%E8%AF%B4-%E6%95%A3%E6%96%87-%E8%AF%97%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏-1.1</title>
+    <link href="http://yoursite.com/2018/08/14/game01.1/"/>
+    <id>http://yoursite.com/2018/08/14/game01.1/</id>
+    <published>2018-08-14T13:01:05.188Z</published>
+    <updated>2018-08-14T13:57:19.986Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="games" scheme="http://yoursite.com/categories/games/"/>
+    
+      <category term="game1.1" scheme="http://yoursite.com/categories/games/game1-1/"/>
+    
+    
+      <category term="games.1.1 - 娱乐 - 游戏 - LOL.1.1" scheme="http://yoursite.com/tags/games-1-1-%E5%A8%B1%E4%B9%90-%E6%B8%B8%E6%88%8F-LOL-1-1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>游戏-01</title>
+    <link href="http://yoursite.com/2018/08/14/game01/"/>
+    <id>http://yoursite.com/2018/08/14/game01/</id>
+    <published>2018-08-14T12:57:40.775Z</published>
+    <updated>2018-08-14T13:57:16.433Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="games" scheme="http://yoursite.com/categories/games/"/>
+    
+      <category term="game0.1" scheme="http://yoursite.com/categories/games/game0-1/"/>
+    
+    
+      <category term="tags - 娱乐 - 游戏 - LOL" scheme="http://yoursite.com/tags/tags-%E5%A8%B1%E4%B9%90-%E6%B8%B8%E6%88%8F-LOL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章-02</title>
+    <link href="http://yoursite.com/2018/08/14/article002%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2018/08/14/article002 - 副本/</id>
+    <published>2018-08-14T12:35:15.000Z</published>
+    <updated>2018-08-14T15:31:19.946Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简洁的-Markdown-编辑器-Smark"><a href="#简洁的-Markdown-编辑器-Smark" class="headerlink" title="简洁的 Markdown 编辑器 Smark"></a>简洁的 Markdown 编辑器 Smark</h1><p><img align="left" src="https://raw.githubusercontent.com/elerao/Smark/master/README/logo.png" width="100"></p><p>说白了只是为了自己方便使用，并没什么新奇的东西。我使用 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener">pandoc</a> 来转化 <code>markdown</code>，但是我不想在修改文件时总是在编辑器、文字终端和浏览器间换来换去，因此我写了一个简单的编辑器，它在后台调用 <code>pandoc</code> 将当前编辑的 <code>markdown</code> 内容转化为 <code>HTML</code>，而后将 <code>HTML</code> 在 <code>smark</code> 中的浏览器中显示出来，就是这么回事。Smark 依赖于 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener"><code>pandoc</code></a>、<a href="http://qt-project.org/" target="_blank" rel="noopener"><code>Qt 4.8</code></a> 和 <a href="http://www.mathjax.org" target="_blank" rel="noopener"><code>MathJax</code></a>，在此向上述软件包开发者们致敬。请注意继承于 pandoc 的发布协议，Smark 同样遵循 <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank" rel="noopener">GPL</a>，如有任何疑问请联系 <a href="elerao.ao@gmail.com">elerao.ao@gmail.com</a>，我将尽快做出回复。</p><p>主要特性：</p><ul><li><code>Windows</code> / <code>Linux</code> 等主流系统跨平台支持；</li><li>完美支持 <code>LaTex</code> 数学公式、脚注、尾注等，支持使用本地 <code>MathJax</code> 调用，不需要在线访问 <code>MathJax CDN</code>；</li><li>用户可配置的 <code>Markdown</code> 语法高亮显示，美观整洁；</li><li>多种格式文件导出支持，可将当前 <code>Markdown</code> 文件另存为 <code>HTML</code>、 <code>Miscrosoft Word</code>、<code>OpenOffice / LibreOffice ODT Document</code>、<code>Latex</code>、<code>PDF</code>、<code>reStructured Text</code>、<code>Media Wiki markup</code>、<code>epub</code> 以及 <code>plain txt</code> 等格式文件输出；</li><li>可通过用户指明 <code>CSS</code> 文件定义显示式样；</li><li>简洁友好的界面布局，尽可能地凸显正在编辑的内容；</li><li>系统、完备的各类快捷键，极大地提高了工作效率；</li></ul><h2 id="安装-Smark"><a href="#安装-Smark" class="headerlink" title="安装 Smark"></a>安装 Smark</h2><p>对于 <code>Win32</code> 平台的用户，您可以直接下载当前版本的可执行程序 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a>。对于其它平台的用户，可以下载当前版本的 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>在本平台上进行编译即可，一般地您可以按照如下步骤编译 <code>Smark</code>：</p><ol><li><p>安装依赖的程序包:</p><pre><code>$ sudo apt-get install qtsdk$ sudo apt-get install pandoc</code></pre><p>如果您不使用 <code>apt-get</code> 作为软件包管理器，自己谷歌搜索如何安装这两个程序包</p></li><li><p>下载 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>，解压并编译:</p><pre><code>$ qmake -project$ qmake$ make</code></pre></li><li><p>把编译出的可执行文件移动到您的 <code>[bin]</code> 路径下即可使用，此时 <code>Smark</code> 将使用默认的 <code>CSS</code> 样式表和基于 <code>MathJax CDN</code> 的 <code>MathJax</code> 访问。如果想要得到与 <code>Windows</code> 平台下完全一致的体验，您还需下载 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">smark-2.0-resource.zip</a> 解压倒 <code>Smark</code> 的安装目录下并进行设置。</p></li></ol><h2 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h2><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/screenshot.png" width="95%"><br><br>Windows 7 下的 Smark 运行截图<br><br><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/option-dialog.png" width="95%"><br><br>Windows 7 下的 Smark 配置选项对话框<br></p><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><h3 id="64-位-Windows-下提示无法运行-pandoc："><a href="#64-位-Windows-下提示无法运行-pandoc：" class="headerlink" title="64 位 Windows 下提示无法运行 pandoc："></a>64 位 Windows 下提示无法运行 pandoc：</h3><p>这是因为 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 pandoc.exe 是 32 位系统下的，您可以通过下载安装包 <a href="http://pan.baidu.com/s/1ntMCVFV#path=%252Fsmark" target="_blank" rel="noopener">pandoc-1.13.1-win64.msi</a> 直接安装 64 位的 <code>pandoc</code> 而删除 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 32 位的 <code>pandoc.exe</code>。</p><h3 id="谷歌输入法无法输入问题"><a href="#谷歌输入法无法输入问题" class="headerlink" title="谷歌输入法无法输入问题"></a>谷歌输入法无法输入问题</h3><p>貌似大凡使用 <code>QTextEdit</code> 部件的地方都存在这样的问题，这是因为您未开启 谷歌输入法的内嵌编辑模式，可通过点击 “谷歌输入法设置对话框” 中 “设置内嵌编辑模式” 按钮，后勾选 “使用内嵌编辑模式” 即可，如下图所示：</p><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/google-input-setting.png" width="60%"><br></p><h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><h3 id="现有问题："><a href="#现有问题：" class="headerlink" title="现有问题："></a>现有问题：</h3><ul><li>在 Qt5 下编译的 WebView 无法完整地加载 CSS 中的设置，Qt4 下没问题；</li><li>改动后的 Markdwon 语法高亮的超链接 和 加粗 的正则表达式匹配有问题；</li><li>导出 PDF 和打印时的内容分页问题；</li></ul><h3 id="待添加功能"><a href="#待添加功能" class="headerlink" title="待添加功能"></a>待添加功能</h3><ul><li>仿照 QtCreator 3.1.xx 中编辑器的多行同时编辑实现，支持 Sublime 等软件所支持的多行同时编辑；</li><li>与 百度云、Google Drive、OneDrive 内容同步，这个以后再说；</li></ul><h2 id="附录：Smark-的快捷键列表"><a href="#附录：Smark-的快捷键列表" class="headerlink" title="附录：Smark 的快捷键列表"></a>附录：Smark 的快捷键列表</h2><p id="hotkey"></p><p>全局</p><pre><code>Esc              : 逐步隐藏所有不必要的部件，退出全屏显示Tab              : 增加所选诸行的缩进（四个空格）Ctrl + Tab       : 减小所选诸行的缩进（四个空格）</code></pre><p>文件菜单</p><pre><code>Ctrl + N         : 新建 markdown 文件Ctrl + O         : 打开 markdown 文件Ctrl + S         : 保存当前 markdown 文件Ctrl + Shift + S : 将当前文件另存为支持的格式Ctrl + W         : 关闭当前 markdown 文件Ctrl + P         : 打印当前 markdown 文件Ctrl + Q         : 退出 Smark</code></pre><p>视图菜单</p><pre><code>F6               : 预览模式视图F7               : 阅读模式视图F8               : 编辑模式视图F11              : 进入 / 退出全屏显示</code></pre><p>编辑菜单</p><pre><code>F5               : 刷新 HTML 显示Ctrl + Shift + C : 查看 HTML 源代码Ctrl + C         : 复制Ctrl + X         : 剪切Ctrl + P         : 粘贴Ctrl + Z         : 撤消Ctrl + Y         : 重做Ctrl + F         : 查找</code></pre><p>插入菜单</p><pre><code>Ctrl + Shift + P : 插入图片Ctrl + Shift + L : 插入链接Ctrl + Shift + M : 插入数学公式</code></pre><p>格式菜单</p><pre><code>Ctrl + B         : 加粗Ctrl + I         : 倾斜Ctrl + U         : 下划线Ctrl + ]         : 加大字号Ctrl + [         : 减小字号Ctrl + Down      : 下标Ctrl + Up        : 上标Ctrl + `         : 代码Ctrl + &apos;         : 引用Ctrl + L         : 内容左对齐Ctrl + R         : 内容右对齐Ctrl + E         : 内容居中</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;简洁的-Markdown-编辑器-Smark&quot;&gt;&lt;a href=&quot;#简洁的-Markdown-编辑器-Smark&quot; class=&quot;headerlink&quot; title=&quot;简洁的 Markdown 编辑器 Smark&quot;&gt;&lt;/a&gt;简洁的 Markdown 编辑器 Sma
+      
+    
+    </summary>
+    
+      <category term="articles1 - 简洁的文章-02" scheme="http://yoursite.com/categories/articles1-%E7%AE%80%E6%B4%81%E7%9A%84%E6%96%87%E7%AB%A0-02/"/>
+    
+    
+      <category term="tags - 编辑器 - 技术 - Markdown" scheme="http://yoursite.com/tags/tags-%E7%BC%96%E8%BE%91%E5%99%A8-%E6%8A%80%E6%9C%AF-Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章-02</title>
+    <link href="http://yoursite.com/2018/08/14/article002/"/>
+    <id>http://yoursite.com/2018/08/14/article002/</id>
+    <published>2018-08-14T12:35:15.000Z</published>
+    <updated>2018-08-14T12:50:37.838Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简洁的-Markdown-编辑器-Smark"><a href="#简洁的-Markdown-编辑器-Smark" class="headerlink" title="简洁的 Markdown 编辑器 Smark"></a>简洁的 Markdown 编辑器 Smark</h1><p><img align="left" src="https://raw.githubusercontent.com/elerao/Smark/master/README/logo.png" width="100"></p><p>说白了只是为了自己方便使用，并没什么新奇的东西。我使用 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener">pandoc</a> 来转化 <code>markdown</code>，但是我不想在修改文件时总是在编辑器、文字终端和浏览器间换来换去，因此我写了一个简单的编辑器，它在后台调用 <code>pandoc</code> 将当前编辑的 <code>markdown</code> 内容转化为 <code>HTML</code>，而后将 <code>HTML</code> 在 <code>smark</code> 中的浏览器中显示出来，就是这么回事。Smark 依赖于 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener"><code>pandoc</code></a>、<a href="http://qt-project.org/" target="_blank" rel="noopener"><code>Qt 4.8</code></a> 和 <a href="http://www.mathjax.org" target="_blank" rel="noopener"><code>MathJax</code></a>，在此向上述软件包开发者们致敬。请注意继承于 pandoc 的发布协议，Smark 同样遵循 <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank" rel="noopener">GPL</a>，如有任何疑问请联系 <a href="elerao.ao@gmail.com">elerao.ao@gmail.com</a>，我将尽快做出回复。</p><p>主要特性：</p><ul><li><code>Windows</code> / <code>Linux</code> 等主流系统跨平台支持；</li><li>完美支持 <code>LaTex</code> 数学公式、脚注、尾注等，支持使用本地 <code>MathJax</code> 调用，不需要在线访问 <code>MathJax CDN</code>；</li><li>用户可配置的 <code>Markdown</code> 语法高亮显示，美观整洁；</li><li>多种格式文件导出支持，可将当前 <code>Markdown</code> 文件另存为 <code>HTML</code>、 <code>Miscrosoft Word</code>、<code>OpenOffice / LibreOffice ODT Document</code>、<code>Latex</code>、<code>PDF</code>、<code>reStructured Text</code>、<code>Media Wiki markup</code>、<code>epub</code> 以及 <code>plain txt</code> 等格式文件输出；</li><li>可通过用户指明 <code>CSS</code> 文件定义显示式样；</li><li>简洁友好的界面布局，尽可能地凸显正在编辑的内容；</li><li>系统、完备的各类快捷键，极大地提高了工作效率；</li></ul><h2 id="安装-Smark"><a href="#安装-Smark" class="headerlink" title="安装 Smark"></a>安装 Smark</h2><p>对于 <code>Win32</code> 平台的用户，您可以直接下载当前版本的可执行程序 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a>。对于其它平台的用户，可以下载当前版本的 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>在本平台上进行编译即可，一般地您可以按照如下步骤编译 <code>Smark</code>：</p><ol><li><p>安装依赖的程序包:</p><pre><code>$ sudo apt-get install qtsdk$ sudo apt-get install pandoc</code></pre><p>如果您不使用 <code>apt-get</code> 作为软件包管理器，自己谷歌搜索如何安装这两个程序包</p></li><li><p>下载 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>，解压并编译:</p><pre><code>$ qmake -project$ qmake$ make</code></pre></li><li><p>把编译出的可执行文件移动到您的 <code>[bin]</code> 路径下即可使用，此时 <code>Smark</code> 将使用默认的 <code>CSS</code> 样式表和基于 <code>MathJax CDN</code> 的 <code>MathJax</code> 访问。如果想要得到与 <code>Windows</code> 平台下完全一致的体验，您还需下载 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">smark-2.0-resource.zip</a> 解压倒 <code>Smark</code> 的安装目录下并进行设置。</p></li></ol><h2 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h2><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/screenshot.png" width="95%"><br><br>Windows 7 下的 Smark 运行截图<br><br><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/option-dialog.png" width="95%"><br><br>Windows 7 下的 Smark 配置选项对话框<br></p><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><h3 id="64-位-Windows-下提示无法运行-pandoc："><a href="#64-位-Windows-下提示无法运行-pandoc：" class="headerlink" title="64 位 Windows 下提示无法运行 pandoc："></a>64 位 Windows 下提示无法运行 pandoc：</h3><p>这是因为 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 pandoc.exe 是 32 位系统下的，您可以通过下载安装包 <a href="http://pan.baidu.com/s/1ntMCVFV#path=%252Fsmark" target="_blank" rel="noopener">pandoc-1.13.1-win64.msi</a> 直接安装 64 位的 <code>pandoc</code> 而删除 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 32 位的 <code>pandoc.exe</code>。</p><h3 id="谷歌输入法无法输入问题"><a href="#谷歌输入法无法输入问题" class="headerlink" title="谷歌输入法无法输入问题"></a>谷歌输入法无法输入问题</h3><p>貌似大凡使用 <code>QTextEdit</code> 部件的地方都存在这样的问题，这是因为您未开启 谷歌输入法的内嵌编辑模式，可通过点击 “谷歌输入法设置对话框” 中 “设置内嵌编辑模式” 按钮，后勾选 “使用内嵌编辑模式” 即可，如下图所示：</p><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/google-input-setting.png" width="60%"><br></p><h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><h3 id="现有问题："><a href="#现有问题：" class="headerlink" title="现有问题："></a>现有问题：</h3><ul><li>在 Qt5 下编译的 WebView 无法完整地加载 CSS 中的设置，Qt4 下没问题；</li><li>改动后的 Markdwon 语法高亮的超链接 和 加粗 的正则表达式匹配有问题；</li><li>导出 PDF 和打印时的内容分页问题；</li></ul><h3 id="待添加功能"><a href="#待添加功能" class="headerlink" title="待添加功能"></a>待添加功能</h3><ul><li>仿照 QtCreator 3.1.xx 中编辑器的多行同时编辑实现，支持 Sublime 等软件所支持的多行同时编辑；</li><li>与 百度云、Google Drive、OneDrive 内容同步，这个以后再说；</li></ul><h2 id="附录：Smark-的快捷键列表"><a href="#附录：Smark-的快捷键列表" class="headerlink" title="附录：Smark 的快捷键列表"></a>附录：Smark 的快捷键列表</h2><p id="hotkey"></p><p>全局</p><pre><code>Esc              : 逐步隐藏所有不必要的部件，退出全屏显示Tab              : 增加所选诸行的缩进（四个空格）Ctrl + Tab       : 减小所选诸行的缩进（四个空格）</code></pre><p>文件菜单</p><pre><code>Ctrl + N         : 新建 markdown 文件Ctrl + O         : 打开 markdown 文件Ctrl + S         : 保存当前 markdown 文件Ctrl + Shift + S : 将当前文件另存为支持的格式Ctrl + W         : 关闭当前 markdown 文件Ctrl + P         : 打印当前 markdown 文件Ctrl + Q         : 退出 Smark</code></pre><p>视图菜单</p><pre><code>F6               : 预览模式视图F7               : 阅读模式视图F8               : 编辑模式视图F11              : 进入 / 退出全屏显示</code></pre><p>编辑菜单</p><pre><code>F5               : 刷新 HTML 显示Ctrl + Shift + C : 查看 HTML 源代码Ctrl + C         : 复制Ctrl + X         : 剪切Ctrl + P         : 粘贴Ctrl + Z         : 撤消Ctrl + Y         : 重做Ctrl + F         : 查找</code></pre><p>插入菜单</p><pre><code>Ctrl + Shift + P : 插入图片Ctrl + Shift + L : 插入链接Ctrl + Shift + M : 插入数学公式</code></pre><p>格式菜单</p><pre><code>Ctrl + B         : 加粗Ctrl + I         : 倾斜Ctrl + U         : 下划线Ctrl + ]         : 加大字号Ctrl + [         : 减小字号Ctrl + Down      : 下标Ctrl + Up        : 上标Ctrl + `         : 代码Ctrl + &apos;         : 引用Ctrl + L         : 内容左对齐Ctrl + R         : 内容右对齐Ctrl + E         : 内容居中</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;简洁的-Markdown-编辑器-Smark&quot;&gt;&lt;a href=&quot;#简洁的-Markdown-编辑器-Smark&quot; class=&quot;headerlink&quot; title=&quot;简洁的 Markdown 编辑器 Smark&quot;&gt;&lt;/a&gt;简洁的 Markdown 编辑器 Sma
+      
+    
+    </summary>
+    
+      <category term="articles - 简洁的文章-02" scheme="http://yoursite.com/categories/articles-%E7%AE%80%E6%B4%81%E7%9A%84%E6%96%87%E7%AB%A0-02/"/>
+    
+    
+      <category term="tags - 编辑器 - 技术 - Markdown" scheme="http://yoursite.com/tags/tags-%E7%BC%96%E8%BE%91%E5%99%A8-%E6%8A%80%E6%9C%AF-Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>postName</title>
+    <link href="http://yoursite.com/2018/08/14/postName%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2018/08/14/postName - 副本/</id>
+    <published>2018-08-14T11:45:25.000Z</published>
+    <updated>2018-08-14T15:31:40.999Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简洁的-Markdown-编辑器-Smark"><a href="#简洁的-Markdown-编辑器-Smark" class="headerlink" title="简洁的 Markdown 编辑器 Smark"></a>简洁的 Markdown 编辑器 Smark</h1><p><img align="left" src="https://raw.githubusercontent.com/elerao/Smark/master/README/logo.png" width="100"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;简洁的-Markdown-编辑器-Smark&quot;&gt;&lt;a href=&quot;#简洁的-Markdown-编辑器-Smark&quot; class=&quot;headerlink&quot; title=&quot;简洁的 Markdown 编辑器 Smark&quot;&gt;&lt;/a&gt;简洁的 Markdown 编辑器 Sma
+      
+    
+    </summary>
+    
+      <category term="categories3 - 文章-05 - 简洁的 Markdown 编辑器 Smark - 安装 Smark - 运行截图" scheme="http://yoursite.com/categories/categories3-%E6%96%87%E7%AB%A0-05-%E7%AE%80%E6%B4%81%E7%9A%84-Markdown-%E7%BC%96%E8%BE%91%E5%99%A8-Smark-%E5%AE%89%E8%A3%85-Smark-%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/"/>
+    
+    
+      <category term="tags - 技术期刊" scheme="http://yoursite.com/tags/tags-%E6%8A%80%E6%9C%AF%E6%9C%9F%E5%88%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>postName</title>
+    <link href="http://yoursite.com/2018/08/14/postName/"/>
+    <id>http://yoursite.com/2018/08/14/postName/</id>
+    <published>2018-08-14T11:45:25.000Z</published>
+    <updated>2018-08-14T12:54:10.588Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简洁的-Markdown-编辑器-Smark"><a href="#简洁的-Markdown-编辑器-Smark" class="headerlink" title="简洁的 Markdown 编辑器 Smark"></a>简洁的 Markdown 编辑器 Smark</h1><p><img align="left" src="https://raw.githubusercontent.com/elerao/Smark/master/README/logo.png" width="100"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;简洁的-Markdown-编辑器-Smark&quot;&gt;&lt;a href=&quot;#简洁的-Markdown-编辑器-Smark&quot; class=&quot;headerlink&quot; title=&quot;简洁的 Markdown 编辑器 Smark&quot;&gt;&lt;/a&gt;简洁的 Markdown 编辑器 Sma
+      
+    
+    </summary>
+    
+      <category term="categories - 文章-05 - 简洁的 Markdown 编辑器 Smark - 安装 Smark - 运行截图" scheme="http://yoursite.com/categories/categories-%E6%96%87%E7%AB%A0-05-%E7%AE%80%E6%B4%81%E7%9A%84-Markdown-%E7%BC%96%E8%BE%91%E5%99%A8-Smark-%E5%AE%89%E8%A3%85-Smark-%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/"/>
+    
+    
+      <category term="tags - 技术期刊" scheme="http://yoursite.com/tags/tags-%E6%8A%80%E6%9C%AF%E6%9C%9F%E5%88%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简洁的 Markdown 编辑器 Smark</title>
+    <link href="http://yoursite.com/2018/08/14/Markdown%E7%BC%96%E8%BE%91%E5%99%A8%20-%20%E5%89%AF%E6%9C%AC/"/>
+    <id>http://yoursite.com/2018/08/14/Markdown编辑器 - 副本/</id>
+    <published>2018-08-14T11:35:15.000Z</published>
+    <updated>2018-08-14T15:31:38.169Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简洁的-Markdown-编辑器-Smark"><a href="#简洁的-Markdown-编辑器-Smark" class="headerlink" title="简洁的 Markdown 编辑器 Smark"></a>简洁的 Markdown 编辑器 Smark</h1><p><img align="left" src="https://raw.githubusercontent.com/elerao/Smark/master/README/logo.png" width="100"></p><p>说白了只是为了自己方便使用，并没什么新奇的东西。我使用 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener">pandoc</a> 来转化 <code>markdown</code>，但是我不想在修改文件时总是在编辑器、文字终端和浏览器间换来换去，因此我写了一个简单的编辑器，它在后台调用 <code>pandoc</code> 将当前编辑的 <code>markdown</code> 内容转化为 <code>HTML</code>，而后将 <code>HTML</code> 在 <code>smark</code> 中的浏览器中显示出来，就是这么回事。Smark 依赖于 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener"><code>pandoc</code></a>、<a href="http://qt-project.org/" target="_blank" rel="noopener"><code>Qt 4.8</code></a> 和 <a href="http://www.mathjax.org" target="_blank" rel="noopener"><code>MathJax</code></a>，在此向上述软件包开发者们致敬。请注意继承于 pandoc 的发布协议，Smark 同样遵循 <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank" rel="noopener">GPL</a>，如有任何疑问请联系 <a href="elerao.ao@gmail.com">elerao.ao@gmail.com</a>，我将尽快做出回复。</p><p>主要特性：</p><ul><li><code>Windows</code> / <code>Linux</code> 等主流系统跨平台支持；</li><li>完美支持 <code>LaTex</code> 数学公式、脚注、尾注等，支持使用本地 <code>MathJax</code> 调用，不需要在线访问 <code>MathJax CDN</code>；</li><li>用户可配置的 <code>Markdown</code> 语法高亮显示，美观整洁；</li><li>多种格式文件导出支持，可将当前 <code>Markdown</code> 文件另存为 <code>HTML</code>、 <code>Miscrosoft Word</code>、<code>OpenOffice / LibreOffice ODT Document</code>、<code>Latex</code>、<code>PDF</code>、<code>reStructured Text</code>、<code>Media Wiki markup</code>、<code>epub</code> 以及 <code>plain txt</code> 等格式文件输出；</li><li>可通过用户指明 <code>CSS</code> 文件定义显示式样；</li><li>简洁友好的界面布局，尽可能地凸显正在编辑的内容；</li><li>系统、完备的各类快捷键，极大地提高了工作效率；</li></ul><h2 id="安装-Smark"><a href="#安装-Smark" class="headerlink" title="安装 Smark"></a>安装 Smark</h2><p>对于 <code>Win32</code> 平台的用户，您可以直接下载当前版本的可执行程序 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a>。对于其它平台的用户，可以下载当前版本的 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>在本平台上进行编译即可，一般地您可以按照如下步骤编译 <code>Smark</code>：</p><ol><li><p>安装依赖的程序包:</p><pre><code>$ sudo apt-get install qtsdk$ sudo apt-get install pandoc</code></pre><p>如果您不使用 <code>apt-get</code> 作为软件包管理器，自己谷歌搜索如何安装这两个程序包</p></li><li><p>下载 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>，解压并编译:</p><pre><code>$ qmake -project$ qmake$ make</code></pre></li><li><p>把编译出的可执行文件移动到您的 <code>[bin]</code> 路径下即可使用，此时 <code>Smark</code> 将使用默认的 <code>CSS</code> 样式表和基于 <code>MathJax CDN</code> 的 <code>MathJax</code> 访问。如果想要得到与 <code>Windows</code> 平台下完全一致的体验，您还需下载 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">smark-2.0-resource.zip</a> 解压倒 <code>Smark</code> 的安装目录下并进行设置。</p></li></ol><h2 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h2><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/screenshot.png" width="95%"><br><br>Windows 7 下的 Smark 运行截图<br><br><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/option-dialog.png" width="95%"><br><br>Windows 7 下的 Smark 配置选项对话框<br></p><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><h3 id="64-位-Windows-下提示无法运行-pandoc："><a href="#64-位-Windows-下提示无法运行-pandoc：" class="headerlink" title="64 位 Windows 下提示无法运行 pandoc："></a>64 位 Windows 下提示无法运行 pandoc：</h3><p>这是因为 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 pandoc.exe 是 32 位系统下的，您可以通过下载安装包 <a href="http://pan.baidu.com/s/1ntMCVFV#path=%252Fsmark" target="_blank" rel="noopener">pandoc-1.13.1-win64.msi</a> 直接安装 64 位的 <code>pandoc</code> 而删除 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 32 位的 <code>pandoc.exe</code>。</p><h3 id="谷歌输入法无法输入问题"><a href="#谷歌输入法无法输入问题" class="headerlink" title="谷歌输入法无法输入问题"></a>谷歌输入法无法输入问题</h3><p>貌似大凡使用 <code>QTextEdit</code> 部件的地方都存在这样的问题，这是因为您未开启 谷歌输入法的内嵌编辑模式，可通过点击 “谷歌输入法设置对话框” 中 “设置内嵌编辑模式” 按钮，后勾选 “使用内嵌编辑模式” 即可，如下图所示：</p><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/google-input-setting.png" width="60%"><br></p><h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><h3 id="现有问题："><a href="#现有问题：" class="headerlink" title="现有问题："></a>现有问题：</h3><ul><li>在 Qt5 下编译的 WebView 无法完整地加载 CSS 中的设置，Qt4 下没问题；</li><li>改动后的 Markdwon 语法高亮的超链接 和 加粗 的正则表达式匹配有问题；</li><li>导出 PDF 和打印时的内容分页问题；</li></ul><h3 id="待添加功能"><a href="#待添加功能" class="headerlink" title="待添加功能"></a>待添加功能</h3><ul><li>仿照 QtCreator 3.1.xx 中编辑器的多行同时编辑实现，支持 Sublime 等软件所支持的多行同时编辑；</li><li>与 百度云、Google Drive、OneDrive 内容同步，这个以后再说；</li></ul><h2 id="附录：Smark-的快捷键列表"><a href="#附录：Smark-的快捷键列表" class="headerlink" title="附录：Smark 的快捷键列表"></a>附录：Smark 的快捷键列表</h2><p id="hotkey"></p><p>全局</p><pre><code>Esc              : 逐步隐藏所有不必要的部件，退出全屏显示Tab              : 增加所选诸行的缩进（四个空格）Ctrl + Tab       : 减小所选诸行的缩进（四个空格）</code></pre><p>文件菜单</p><pre><code>Ctrl + N         : 新建 markdown 文件Ctrl + O         : 打开 markdown 文件Ctrl + S         : 保存当前 markdown 文件Ctrl + Shift + S : 将当前文件另存为支持的格式Ctrl + W         : 关闭当前 markdown 文件Ctrl + P         : 打印当前 markdown 文件Ctrl + Q         : 退出 Smark</code></pre><p>视图菜单</p><pre><code>F6               : 预览模式视图F7               : 阅读模式视图F8               : 编辑模式视图F11              : 进入 / 退出全屏显示</code></pre><p>编辑菜单</p><pre><code>F5               : 刷新 HTML 显示Ctrl + Shift + C : 查看 HTML 源代码Ctrl + C         : 复制Ctrl + X         : 剪切Ctrl + P         : 粘贴Ctrl + Z         : 撤消Ctrl + Y         : 重做Ctrl + F         : 查找</code></pre><p>插入菜单</p><pre><code>Ctrl + Shift + P : 插入图片Ctrl + Shift + L : 插入链接Ctrl + Shift + M : 插入数学公式</code></pre><p>格式菜单</p><pre><code>Ctrl + B         : 加粗Ctrl + I         : 倾斜Ctrl + U         : 下划线Ctrl + ]         : 加大字号Ctrl + [         : 减小字号Ctrl + Down      : 下标Ctrl + Up        : 上标Ctrl + `         : 代码Ctrl + &apos;         : 引用Ctrl + L         : 内容左对齐Ctrl + R         : 内容右对齐Ctrl + E         : 内容居中</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;简洁的-Markdown-编辑器-Smark&quot;&gt;&lt;a href=&quot;#简洁的-Markdown-编辑器-Smark&quot; class=&quot;headerlink&quot; title=&quot;简洁的 Markdown 编辑器 Smark&quot;&gt;&lt;/a&gt;简洁的 Markdown 编辑器 Sma
+      
+    
+    </summary>
+    
+      <category term="categories2 - 文章-04 - 安装 Smark - 运行截图" scheme="http://yoursite.com/categories/categories2-%E6%96%87%E7%AB%A0-04-%E5%AE%89%E8%A3%85-Smark-%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/"/>
+    
+    
+      <category term="tags - 编辑器 - 技术 - Markdown" scheme="http://yoursite.com/tags/tags-%E7%BC%96%E8%BE%91%E5%99%A8-%E6%8A%80%E6%9C%AF-Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简洁的 Markdown 编辑器 Smark</title>
+    <link href="http://yoursite.com/2018/08/14/Markdown%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+    <id>http://yoursite.com/2018/08/14/Markdown编辑器/</id>
+    <published>2018-08-14T11:35:15.000Z</published>
+    <updated>2018-08-14T12:50:24.444Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简洁的-Markdown-编辑器-Smark"><a href="#简洁的-Markdown-编辑器-Smark" class="headerlink" title="简洁的 Markdown 编辑器 Smark"></a>简洁的 Markdown 编辑器 Smark</h1><p><img align="left" src="https://raw.githubusercontent.com/elerao/Smark/master/README/logo.png" width="100"></p><p>说白了只是为了自己方便使用，并没什么新奇的东西。我使用 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener">pandoc</a> 来转化 <code>markdown</code>，但是我不想在修改文件时总是在编辑器、文字终端和浏览器间换来换去，因此我写了一个简单的编辑器，它在后台调用 <code>pandoc</code> 将当前编辑的 <code>markdown</code> 内容转化为 <code>HTML</code>，而后将 <code>HTML</code> 在 <code>smark</code> 中的浏览器中显示出来，就是这么回事。Smark 依赖于 <a href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener"><code>pandoc</code></a>、<a href="http://qt-project.org/" target="_blank" rel="noopener"><code>Qt 4.8</code></a> 和 <a href="http://www.mathjax.org" target="_blank" rel="noopener"><code>MathJax</code></a>，在此向上述软件包开发者们致敬。请注意继承于 pandoc 的发布协议，Smark 同样遵循 <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank" rel="noopener">GPL</a>，如有任何疑问请联系 <a href="elerao.ao@gmail.com">elerao.ao@gmail.com</a>，我将尽快做出回复。</p><p>主要特性：</p><ul><li><code>Windows</code> / <code>Linux</code> 等主流系统跨平台支持；</li><li>完美支持 <code>LaTex</code> 数学公式、脚注、尾注等，支持使用本地 <code>MathJax</code> 调用，不需要在线访问 <code>MathJax CDN</code>；</li><li>用户可配置的 <code>Markdown</code> 语法高亮显示，美观整洁；</li><li>多种格式文件导出支持，可将当前 <code>Markdown</code> 文件另存为 <code>HTML</code>、 <code>Miscrosoft Word</code>、<code>OpenOffice / LibreOffice ODT Document</code>、<code>Latex</code>、<code>PDF</code>、<code>reStructured Text</code>、<code>Media Wiki markup</code>、<code>epub</code> 以及 <code>plain txt</code> 等格式文件输出；</li><li>可通过用户指明 <code>CSS</code> 文件定义显示式样；</li><li>简洁友好的界面布局，尽可能地凸显正在编辑的内容；</li><li>系统、完备的各类快捷键，极大地提高了工作效率；</li></ul><h2 id="安装-Smark"><a href="#安装-Smark" class="headerlink" title="安装 Smark"></a>安装 Smark</h2><p>对于 <code>Win32</code> 平台的用户，您可以直接下载当前版本的可执行程序 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a>。对于其它平台的用户，可以下载当前版本的 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>在本平台上进行编译即可，一般地您可以按照如下步骤编译 <code>Smark</code>：</p><ol><li><p>安装依赖的程序包:</p><pre><code>$ sudo apt-get install qtsdk$ sudo apt-get install pandoc</code></pre><p>如果您不使用 <code>apt-get</code> 作为软件包管理器，自己谷歌搜索如何安装这两个程序包</p></li><li><p>下载 Smark 源代码 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-src.zip</a>，解压并编译:</p><pre><code>$ qmake -project$ qmake$ make</code></pre></li><li><p>把编译出的可执行文件移动到您的 <code>[bin]</code> 路径下即可使用，此时 <code>Smark</code> 将使用默认的 <code>CSS</code> 样式表和基于 <code>MathJax CDN</code> 的 <code>MathJax</code> 访问。如果想要得到与 <code>Windows</code> 平台下完全一致的体验，您还需下载 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">smark-2.0-resource.zip</a> 解压倒 <code>Smark</code> 的安装目录下并进行设置。</p></li></ol><h2 id="运行截图"><a href="#运行截图" class="headerlink" title="运行截图"></a>运行截图</h2><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/screenshot.png" width="95%"><br><br>Windows 7 下的 Smark 运行截图<br><br><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/option-dialog.png" width="95%"><br><br>Windows 7 下的 Smark 配置选项对话框<br></p><h2 id="FAQ"><a href="#FAQ" class="headerlink" title="FAQ"></a>FAQ</h2><h3 id="64-位-Windows-下提示无法运行-pandoc："><a href="#64-位-Windows-下提示无法运行-pandoc：" class="headerlink" title="64 位 Windows 下提示无法运行 pandoc："></a>64 位 Windows 下提示无法运行 pandoc：</h3><p>这是因为 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 pandoc.exe 是 32 位系统下的，您可以通过下载安装包 <a href="http://pan.baidu.com/s/1ntMCVFV#path=%252Fsmark" target="_blank" rel="noopener">pandoc-1.13.1-win64.msi</a> 直接安装 64 位的 <code>pandoc</code> 而删除 <a href="http://pan.baidu.com/s/1ntMCVFV" target="_blank" rel="noopener">Smark-X.X-Win32-portable.zip</a> 中自带的 32 位的 <code>pandoc.exe</code>。</p><h3 id="谷歌输入法无法输入问题"><a href="#谷歌输入法无法输入问题" class="headerlink" title="谷歌输入法无法输入问题"></a>谷歌输入法无法输入问题</h3><p>貌似大凡使用 <code>QTextEdit</code> 部件的地方都存在这样的问题，这是因为您未开启 谷歌输入法的内嵌编辑模式，可通过点击 “谷歌输入法设置对话框” 中 “设置内嵌编辑模式” 按钮，后勾选 “使用内嵌编辑模式” 即可，如下图所示：</p><p align="center"><br><br><img src="https://raw.githubusercontent.com/elerao/Smark/master/README/google-input-setting.png" width="60%"><br></p><h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><h3 id="现有问题："><a href="#现有问题：" class="headerlink" title="现有问题："></a>现有问题：</h3><ul><li>在 Qt5 下编译的 WebView 无法完整地加载 CSS 中的设置，Qt4 下没问题；</li><li>改动后的 Markdwon 语法高亮的超链接 和 加粗 的正则表达式匹配有问题；</li><li>导出 PDF 和打印时的内容分页问题；</li></ul><h3 id="待添加功能"><a href="#待添加功能" class="headerlink" title="待添加功能"></a>待添加功能</h3><ul><li>仿照 QtCreator 3.1.xx 中编辑器的多行同时编辑实现，支持 Sublime 等软件所支持的多行同时编辑；</li><li>与 百度云、Google Drive、OneDrive 内容同步，这个以后再说；</li></ul><h2 id="附录：Smark-的快捷键列表"><a href="#附录：Smark-的快捷键列表" class="headerlink" title="附录：Smark 的快捷键列表"></a>附录：Smark 的快捷键列表</h2><p id="hotkey"></p><p>全局</p><pre><code>Esc              : 逐步隐藏所有不必要的部件，退出全屏显示Tab              : 增加所选诸行的缩进（四个空格）Ctrl + Tab       : 减小所选诸行的缩进（四个空格）</code></pre><p>文件菜单</p><pre><code>Ctrl + N         : 新建 markdown 文件Ctrl + O         : 打开 markdown 文件Ctrl + S         : 保存当前 markdown 文件Ctrl + Shift + S : 将当前文件另存为支持的格式Ctrl + W         : 关闭当前 markdown 文件Ctrl + P         : 打印当前 markdown 文件Ctrl + Q         : 退出 Smark</code></pre><p>视图菜单</p><pre><code>F6               : 预览模式视图F7               : 阅读模式视图F8               : 编辑模式视图F11              : 进入 / 退出全屏显示</code></pre><p>编辑菜单</p><pre><code>F5               : 刷新 HTML 显示Ctrl + Shift + C : 查看 HTML 源代码Ctrl + C         : 复制Ctrl + X         : 剪切Ctrl + P         : 粘贴Ctrl + Z         : 撤消Ctrl + Y         : 重做Ctrl + F         : 查找</code></pre><p>插入菜单</p><pre><code>Ctrl + Shift + P : 插入图片Ctrl + Shift + L : 插入链接Ctrl + Shift + M : 插入数学公式</code></pre><p>格式菜单</p><pre><code>Ctrl + B         : 加粗Ctrl + I         : 倾斜Ctrl + U         : 下划线Ctrl + ]         : 加大字号Ctrl + [         : 减小字号Ctrl + Down      : 下标Ctrl + Up        : 上标Ctrl + `         : 代码Ctrl + &apos;         : 引用Ctrl + L         : 内容左对齐Ctrl + R         : 内容右对齐Ctrl + E         : 内容居中</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;简洁的-Markdown-编辑器-Smark&quot;&gt;&lt;a href=&quot;#简洁的-Markdown-编辑器-Smark&quot; class=&quot;headerlink&quot; title=&quot;简洁的 Markdown 编辑器 Smark&quot;&gt;&lt;/a&gt;简洁的 Markdown 编辑器 Sma
+      
+    
+    </summary>
+    
+      <category term="categories - 文章-04 - 安装 Smark - 运行截图" scheme="http://yoursite.com/categories/categories-%E6%96%87%E7%AB%A0-04-%E5%AE%89%E8%A3%85-Smark-%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/"/>
+    
+    
+      <category term="tags - 编辑器 - 技术 - Markdown" scheme="http://yoursite.com/tags/tags-%E7%BC%96%E8%BE%91%E5%99%A8-%E6%8A%80%E6%9C%AF-Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章-01</title>
+    <link href="http://yoursite.com/2018/08/14/article001/"/>
+    <id>http://yoursite.com/2018/08/14/article001/</id>
+    <published>2018-08-14T11:04:04.242Z</published>
+    <updated>2018-08-14T12:50:59.020Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;Hexo 是一个基于 nodejs 的静态博客网站生成器，作者是来自台湾的 Tommy Chen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="articles - 文章001" scheme="http://yoursite.com/categories/articles-%E6%96%87%E7%AB%A0001/"/>
+    
+    
+      <category term="articles - 小说 - 散文 - 诗集" scheme="http://yoursite.com/tags/articles-%E5%B0%8F%E8%AF%B4-%E6%95%A3%E6%96%87-%E8%AF%97%E9%9B%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/08/12/hello-world/"/>
+    <id>http://yoursite.com/2018/08/12/hello-world/</id>
+    <published>2018-08-12T09:12:37.979Z</published>
+    <updated>2018-08-14T12:53:28.862Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="categories - 文章-03 - Hello World" scheme="http://yoursite.com/categories/categories-%E6%96%87%E7%AB%A0-03-Hello-World/"/>
+    
+    
+      <category term="tags - English" scheme="http://yoursite.com/tags/tags-English/"/>
+    
+  </entry>
+  
+</feed>
