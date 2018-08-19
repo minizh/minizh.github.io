@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>张豪个人博客</title>
   
-  <subtitle>技术网站</subtitle>
+  <subtitle>个人网站</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
