@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="张豪的个人博客" />
+  <meta name="keywords" content="Object.keys,遍历," />
 
 
 
@@ -81,17 +81,20 @@
 
 
 
-<meta name="description" content="Stay foolish, Stay hungry">
-<meta name="keywords" content="minizh">
-<meta property="og:type" content="website">
-<meta property="og:title" content="张豪个人博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="js 中几种遍历对象的方法，包括 for..of、for..in、Object.keys、Object.getOwnProperty,它们在使用场景方面各有不同。 js 对象的属性中可直接用、可访问到的属性分为数据属性和访问器属性。 数据属性（实际存储属性值的属性）的四大特性：{      value: 属性值,     writable: true/false,  //控制是否可修改     e">
+<meta name="keywords" content="Object.keys,遍历">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用Object.keys遍历(forEach&#x2F;map)对象数组，合并">
+<meta property="og:url" content="http://yoursite.com/2018/08/19/objectKeys/index.html">
 <meta property="og:site_name" content="张豪个人博客">
-<meta property="og:description" content="Stay foolish, Stay hungry">
+<meta property="og:description" content="js 中几种遍历对象的方法，包括 for..of、for..in、Object.keys、Object.getOwnProperty,它们在使用场景方面各有不同。 js 对象的属性中可直接用、可访问到的属性分为数据属性和访问器属性。 数据属性（实际存储属性值的属性）的四大特性：{      value: 属性值,     writable: true/false,  //控制是否可修改     e">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://i.imgur.com/gOOuYv0.png">
+<meta property="og:updated_time" content="2018-08-19T09:20:44.238Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="张豪个人博客">
-<meta name="twitter:description" content="Stay foolish, Stay hungry">
+<meta name="twitter:title" content="利用Object.keys遍历(forEach&#x2F;map)对象数组，合并">
+<meta name="twitter:description" content="js 中几种遍历对象的方法，包括 for..of、for..in、Object.keys、Object.getOwnProperty,它们在使用场景方面各有不同。 js 对象的属性中可直接用、可访问到的属性分为数据属性和访问器属性。 数据属性（实际存储属性值的属性）的四大特性：{      value: 属性值,     writable: true/false,  //控制是否可修改     e">
+<meta name="twitter:image" content="https://i.imgur.com/gOOuYv0.png">
 
 
 
@@ -121,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/08/19/objectKeys/"/>
 
 
 
 
 
-  <title>张豪个人博客</title>
+  <title>利用Object.keys遍历(forEach/map)对象数组，合并 | 张豪个人博客</title>
   
 
 
@@ -146,8 +149,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -306,9 +308,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -338,9 +340,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/19/objectKeys/" itemprop="url">利用Object.keys遍历(forEach/map)对象数组，合并</a></h1>
+          <h1 class="post-title" itemprop="name headline">利用Object.keys遍历(forEach/map)对象数组，合并</h1>
         
 
         <div class="post-meta">
@@ -423,21 +423,309 @@
       
 
       
-        
-          
-          js 中几种遍历对象的方法，包括 for..of、for..in、Object.keys、Object.getOwnProperty,它们在使用场景方面各有不同。
-js 对象的属性中可直接用、可访问到的属性分为数据属性和访问器属性。
-数据属性（实际存储属性值的属性）的四大特性：{
-     valu
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/08/19/objectKeys/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+        <p>js 中几种遍历对象的方法，包括 for..of、for..in、Object.keys、Object.getOwnProperty,它们在使用场景方面各有不同。</p>
+<p>js 对象的属性中可直接用、可访问到的属性分为数据属性和访问器属性。</p>
+<h4 id="数据属性（实际存储属性值的属性）的四大特性："><a href="#数据属性（实际存储属性值的属性）的四大特性：" class="headerlink" title="数据属性（实际存储属性值的属性）的四大特性："></a>数据属性（实际存储属性值的属性）的四大特性：</h4><pre><code>{
+     value: 属性值,
+    writable: true/false,  //控制是否可修改
+    enumerable: true/false, //控制是否可被for in遍历
+    configurable: true/false, //1. 控制是否可删除 2. 控制是否可修改前两个特性  3.一旦改为false不可逆
+}
+</code></pre><h4 id="访问器属性（不实际存储数据，专门提供对其它数据-变量的保护）的四大特性："><a href="#访问器属性（不实际存储数据，专门提供对其它数据-变量的保护）的四大特性：" class="headerlink" title="访问器属性（不实际存储数据，专门提供对其它数据/变量的保护）的四大特性："></a>访问器属性（不实际存储数据，专门提供对其它数据/变量的保护）的四大特性：</h4><pre><code>{
+    get:function(){return this.隐藏属性;},
+    set:function(val){
+    //如果val符合条件
+        this.隐藏属性=val
+    //否则
+        报错
+},
+enumerable, configurable
+}
+</code></pre><h3 id="1-for-in"><a href="#1-for-in" class="headerlink" title="1. for..in"></a>1. for..in</h3><hr>
+<p>返回的是所有能够通过对象访问的、可枚举的属性，既包括存在于实例中的属性，也包括存在于原型中的实例,不能保证属性按对象原来的顺序输出。（可枚举-自身-原型）</p>
+<pre><code>var obj = {a:1, b:2, c:3};
+
+for (var prop in obj) {
+  console.log(&quot;obj.&quot; + prop + &quot; = &quot; + obj[prop]);
+}
+// Output:
+// &quot;obj.a = 1&quot;
+// &quot;obj.b = 2&quot;
+// &quot;obj.c = 3&quot;
+</code></pre><h3 id="2-Object-keys"><a href="#2-Object-keys" class="headerlink" title="2. Object.keys"></a>2. Object.keys</h3><hr>
+<p>用于获取对象自身所有的可枚举的属性值，但不包括原型中的属性，然后返回一个由属性名组成的数组。注意它同 for..in 一样不能保证属性按对象原来的顺序输出。（可枚举-自身）</p>
+<pre><code>// 数组
+var arr = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;];
+console.log(Object.keys(arr)); // console: [&apos;0&apos;, &apos;1&apos;, &apos;2&apos;]
+
+// 类数组对象
+var obj = { 0: &apos;a&apos;, 1: &apos;b&apos;, 2: &apos;c&apos; };
+console.log(Object.keys(obj)); // console: [&apos;0&apos;, &apos;1&apos;, &apos;2&apos;]
+
+// 类数组对象-随机下标
+var anObj = { 100: &apos;a&apos;, 2: &apos;b&apos;, 7: &apos;c&apos; };
+console.log(Object.keys(anObj)); // console: [&apos;2&apos;, &apos;7&apos;, &apos;100&apos;]
+
+// 不可枚举属性getFoo
+var myObj = Object.create({}, {
+  getFoo: {
+value: function () { return this.foo; }
+  }
+});
+myObj.foo = 1;
+console.log(Object.keys(myObj)); // console: [&apos;foo&apos;]
+</code></pre><h3 id="3-Object-getOwnProperty"><a href="#3-Object-getOwnProperty" class="headerlink" title="3. Object.getOwnProperty"></a>3. Object.getOwnProperty</h3><hr>
+<p>如果你想获取一个对象的所有属性，甚至包括不可枚举的，则可用该方法。其返回对象的所有自身属性的属性名组成的数组，但不会获取原型链上的属性。（可枚举&amp;不可枚举-自身）</p>
+<pre><code>//获取不可枚举属性
+var my_obj = Object.create({}, {
+  getFoo: {
+value: function() { return this.foo; },
+enumerable: false
+  }
+});
+my_obj.foo = 1;
+
+console.log(Object.getOwnPropertyNames(my_obj).sort()); // [&quot;foo&quot;, &quot;getFoo&quot;]
+</code></pre><p>下面的例子演示了该方法不会获取到原型链上的属性：</p>
+<pre><code>function ParentClass() {}
+ParentClass.prototype.inheritedMethod = function() {};
+
+function ChildClass() {
+  this.prop = 5;
+  this.method = function() {};
+}
+
+ChildClass.prototype = new ParentClass;
+ChildClass.prototype.prototypeMethod = function() {};
+
+console.log(
+  Object.getOwnPropertyNames(
+new ChildClass()  // [&quot;prop&quot;, &quot;method&quot;]
+  )
+);
+</code></pre><h3 id="4-for-of"><a href="#4-for-of" class="headerlink" title="4. for..of"></a>4. for..of</h3><hr>
+<p>es6 新增方法，主要来遍历可迭代的对象（包括 Array, Map, Set, arguments 等），它主要用来获取对象 value 值，而 for..in 主要获取对象 key 值。<br>另外：可以由 break, continue, throw 或 return 终止。在这些情况下，迭代器关闭。</p>
+<pre><code>let iterable = [10, 20, 30];
+for (let value of iterable) {
+value += 1;
+console.log(value);
+}
+// 11
+// 21
+// 31
+</code></pre><p>与 for..in 循环之间的区别：</p>
+<pre><code>Object.prototype.objCustom = function() {};
+Array.prototype.arrCustom = function() {};
+
+let iterable = [3, 5, 7];
+iterable.foo = &apos;hello&apos;;
+
+for (let i in iterable) {
+  console.log(i); //  0, 1, 2, &quot;foo&quot;, &quot;arrCustom&quot;, &quot;objCustom&quot;
+}
+
+for (let i in iterable) {
+  if (iterable.hasOwnProperty(i)) {
+console.log(i); //  0, 1, 2, &quot;foo&quot;
+  }
+}
+
+for (let i of iterable) {
+  console.log(i); //  3, 5, 7
+}
+</code></pre><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>其实这几个方法之间的差异主要在属性是否可可枚举，是来自原型，还是实例。<br>图片描述</p>
+<p>开发中的实际应用<br>需求：将如下两个从后台不同端口获取的 json 对象数组整合处理成如下注释部分的 json 对象</p>
+<pre><code>var goodsSpecJSON = [{
+&quot;SpecA&quot;: &quot;颜色&quot;
+}, {
+&quot;SpecB&quot;: &quot;容量&quot;
+}, {
+&quot;SpecC&quot;: &quot;大小&quot;
+}, {
+&quot;SpecD&quot;: &quot;尺寸&quot;
+}, {
+&quot;SpecE&quot;: &quot;套餐&quot;
+}];
+var goodsSpecList = [{
+c_id: 3133,
+costPrice: 0,
+discountPrice: 0,
+earn: 0,
+etime: null,
+flag: 0,
+goodsDetailCount: 199,
+goodsDetailId: &quot;100PgQ2xy08121409mY27&quot;,
+goodsDetailInventory: 199,
+goodsDetailOff: 0,
+goodsDetailPic: &quot;/upload/messageImage/1523281057461_Personal.jpg,/upload/messageImage/1523282906972_Personal.jpg,/upload/messageImage/1523283570897_Personal.jpg&quot;,
+goodsDetailPrice: 188,
+goodsDetailSpec: &quot;&quot;,
+goodsId: &quot;00Y1kR4r1029X822731o0&quot;,
+isHost: 0,
+managerEarn: 0,
+postage: 10,
+profit: 0,
+specA: &quot;红色&quot;,
+specB: &quot;32G&quot;,
+specC: &quot;小&quot;,
+specD: &quot;4.7寸&quot;,
+specE: &quot;套餐一&quot;,
+unionEarn: 0,
+vipPrice: 0
+}, {
+c_id: 3134,
+costPrice: 0,
+discountPrice: 0,
+earn: 0,
+etime: null,
+flag: 0,
+goodsDetailCount: 199,
+goodsDetailId: &quot;100PgQ2xy08121409mY27&quot;,
+goodsDetailInventory: 199,
+goodsDetailOff: 0,
+goodsDetailPic: &quot;/upload/messageImage/1523281057461_Personal.jpg,/upload/messageImage/1523282906972_Personal.jpg,/upload/messageImage/1523283570897_Personal.jpg&quot;,
+goodsDetailPrice: 188,
+goodsDetailSpec: &quot;&quot;,
+goodsId: &quot;00Y1kR4r1029X822731o0&quot;,
+isHost: 0,
+managerEarn: 0,
+postage: 10,
+profit: 0,
+specA: &quot;白色&quot;,
+specB: &quot;64G&quot;,
+specC: &quot;小&quot;,
+specD: &quot;5寸&quot;,
+specE: &quot;套餐二&quot;,
+unionEarn: 0,
+vipPrice: 0
+}, {
+c_id: 3135,
+costPrice: 0,
+discountPrice: 0,
+earn: 0,
+etime: null,
+flag: 0,
+goodsDetailCount: 199,
+goodsDetailId: &quot;100PgQ2xy08121409mY27&quot;,
+goodsDetailInventory: 199,
+goodsDetailOff: 0,
+goodsDetailPic: &quot;/upload/messageImage/1523281057461_Personal.jpg,/upload/messageImage/1523282906972_Personal.jpg,/upload/messageImage/1523283570897_Personal.jpg&quot;,
+goodsDetailPrice: 188,
+goodsDetailSpec: &quot;&quot;,
+goodsId: &quot;00Y1kR4r1029X822731o0&quot;,
+isHost: 0,
+managerEarn: 0,
+postage: 10,
+profit: 0,
+specA: &quot;黑色&quot;,
+specB: &quot;128G&quot;,
+specC: &quot;小&quot;,
+specD: &quot;4.7寸&quot;,
+specE: &quot;套餐一&quot;,
+unionEarn: 0,
+vipPrice: 0
+}, {
+c_id: 3136,
+costPrice: 0,
+discountPrice: 0,
+earn: 0,
+etime: null,
+flag: 0,
+goodsDetailCount: 199,
+goodsDetailId: &quot;100PgQ2xy08121409mY27&quot;,
+goodsDetailInventory: 199,
+goodsDetailOff: 0,
+goodsDetailPic: &quot;/upload/messageImage/1523281057461_Personal.jpg,/upload/messageImage/1523282906972_Personal.jpg,/upload/messageImage/1523283570897_Personal.jpg&quot;,
+goodsDetailPrice: 188,
+goodsDetailSpec: &quot;&quot;,
+goodsId: &quot;00Y1kR4r1029X822731o0&quot;,
+isHost: 0,
+managerEarn: 0,
+postage: 10,
+profit: 0,
+specA: &quot;蓝色&quot;,
+specB: &quot;64GG&quot;,
+specC: &quot;大&quot;,
+specD: &quot;4.5寸&quot;,
+specE: &quot;套餐二&quot;,
+unionEarn: 0,
+vipPrice: 0
+}];
+
+// var keys = {
+// &apos;颜色&apos;: [&apos;红色&apos;, &apos;白色&apos;],
+// &apos;容量&apos;: [&apos;8g&apos;, &apos;16g&apos;, &apos;32g&apos;, &apos;64g&apos;],
+// &apos;尺寸&apos;: [&apos;大&apos;, &apos;小&apos;, &apos;大&apos;],
+// &apos;套餐&apos;: [&apos;套餐一&apos;, &apos;套餐二&apos;, &apos;套餐三&apos;]
+// };
+// //SKU，Stock Keeping Uint(库存量单位)
+// var sku_list = [{
+// &apos;attrs&apos;: &apos;红色|16g|big|套餐二&apos;,
+// &apos;price&apos;: 120
+// }, {
+// &apos;attrs&apos;: &apos;红色|8g|big|套餐一&apos;,
+// &apos;price&apos;: 10
+// }, {
+// &apos;attrs&apos;: &apos;白色|16g|big|套餐二&apos;,
+// &apos;price&apos;: 28
+// }, {
+// &apos;attrs&apos;: &apos;红色|64g|small|套餐三&apos;,
+// &apos;price&apos;: 220
+// }, {
+// &apos;attrs&apos;: &apos;白色|32g|middle|套餐二&apos;,
+// &apos;price&apos;: 130
+// }, {
+// &apos;attrs&apos;: &apos;红色|32g|big|套餐一&apos;,
+// &apos;price&apos;: 120
+// }, ];
+</code></pre><p>实现：主要利用 Object.keys 方法获取对象的 key,value 值，配上 forEach 循环实现最终想要的结果。</p>
+<pre><code>var keys = {};
+var sku_list = [];
+//原数据转换小写
+goodsSpecJSON = goodsSpecJSON.map(function (keyo) {
+var key = Object.keys(keyo)[0];
+var newkey = key.substring(0, 1).toLowerCase() + key.substring(1);
+var dic = {};
+dic[newkey] = keyo[key];
+return dic
+});
+//生成keys
+goodsSpecJSON.forEach(function (keyo) {
+var key = Object.keys(keyo)[0]; //[&apos;specA&apos;]
+var val = keyo[key]; //颜色
+if (!keys.hasOwnProperty(val)) {
+keys[val] = [];
+}
+var hash = {};
+goodsSpecList.forEach(function (item, i) {
+if (hash[item[key]] === undefined) {
+hash[item[key]] = true;
+keys[val].push(item[key]);
+}
+// if (keys[val].indexOf(item[key]) === -1) {
+// keys[val].push(item[key]);
+// }
+});
+});
+console.log(keys)
+//生成sku_list
+goodsSpecList.forEach(function (item) {
+var dic = {
+attrs: &apos;&apos;
+};
+goodsSpecJSON.forEach(function (keyo, j) {
+var key = Object.keys(keyo)[0];
+dic.attrs += item[key] + (j === goodsSpecJSON.length - 1 ? &apos;&apos; : &apos;|&apos;);
+dic.price = item.goodsDetailPrice;
+dic.goodsDetailCount = item.goodsDetailCount;
+dic.goodsDetailId = item.goodsDetailId;
+});
+sku_list.push(dic);
+});
+console.log(sku_list)
+</code></pre><p>输出结果：</p>
+<p><img src="https://i.imgur.com/gOOuYv0.png" alt="示例结果"></p>
+
       
     </div>
     
@@ -452,334 +740,53 @@ js 对象的属性中可直接用、可访问到的属性分为数据属性和�
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/18/Markdown编辑器/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="张豪">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/1383101481859.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="张豪个人博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/18/Markdown编辑器/" itemprop="url">简洁的 Markdown 编辑器 Smark</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-18T19:05:15+08:00">
-                2018-08-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工具类/" itemprop="url" rel="index">
-                    <span itemprop="name">工具类</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工具类/Smark/" itemprop="url" rel="index">
-                    <span itemprop="name">Smark</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/Object-keys/" rel="tag"># Object.keys</a>
           
-
+            <a href="/tags/遍历/" rel="tag"># 遍历</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
+      
+        <div class="post-widgets">
+        
+
+        
+
         
           
-          简洁的 Markdown 编辑器 Smark
-
-说白了只是为了自己方便使用，并没什么新奇的东西。我使用 pandoc 来转化 markdown，但是我不想在修改文件时总是在编辑器、文字终端和浏览器间换来换去，因此我写了一个简单的编辑器，它在后台调用 pandoc 将当前编辑的 markdown 内容
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/08/18/Markdown编辑器/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/17/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="张豪">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/1383101481859.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="张豪个人博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/08/17/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-08-17T19:35:15+08:00">
-                2018-08-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工具类/" itemprop="url" rel="index">
-                    <span itemprop="name">工具类</span>
-                  </a>
-                </span>
-
-                
-                
-                  ， 
-                
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工具类/hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">hexo</span>
-                  </a>
-                </span>
-
-                
-                
-              
+          <div id="needsharebutton-postbottom">
+            <span class="btn">
+              <i class="fa fa-share-alt" aria-hidden="true"></i>
             </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/08/17/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
           </div>
-          <!--/noindex-->
         
+        </div>
       
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/08/18/Markdown编辑器/" rel="next" title="简洁的 Markdown 编辑器 Smark">
+                <i class="fa fa-chevron-left"></i> 简洁的 Markdown 编辑器 Smark
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -789,10 +796,17 @@ js 对象的属性中可直接用、可访问到的属性分为数据属性和�
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
 
 
           </div>
@@ -800,6 +814,15 @@ js 对象的属性中可直接用、可访问到的属性分为数据属性和�
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zODk1Ni8xNTQ4NA=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -820,8 +843,17 @@ js 对象的属性中可直接用、可访问到的属性分为数据属性和�
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -956,6 +988,22 @@ js 对象的属性中可直接用、可访问到的属性分为数据属性和�
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#数据属性（实际存储属性值的属性）的四大特性："><span class="nav-number">1.</span> <span class="nav-text">数据属性（实际存储属性值的属性）的四大特性：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#访问器属性（不实际存储数据，专门提供对其它数据-变量的保护）的四大特性："><span class="nav-number">2.</span> <span class="nav-text">访问器属性（不实际存储数据，专门提供对其它数据/变量的保护）的四大特性：</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-for-in"><span class="nav-number"></span> <span class="nav-text">1. for..in</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Object-keys"><span class="nav-number"></span> <span class="nav-text">2. Object.keys</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-Object-getOwnProperty"><span class="nav-number"></span> <span class="nav-text">3. Object.getOwnProperty</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-for-of"><span class="nav-number"></span> <span class="nav-text">4. for..of</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-number"></span> <span class="nav-text">小结</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1096,6 +1144,10 @@ js 对象的属性中可直接用、可访问到的属性分为数据属性和�
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -1124,6 +1176,17 @@ js 对象的属性中可直接用、可访问到的属性分为数据属性和�
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
