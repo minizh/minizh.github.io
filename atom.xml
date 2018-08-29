@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>张豪个人博客</title>
+  <title>minizh个人网站</title>
   
   <subtitle>个人网站</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>张豪</name>
+    <name>你就像谜一样</name>
     
   </author>
   
