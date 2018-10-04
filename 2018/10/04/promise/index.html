@@ -97,7 +97,7 @@
 <meta property="og:image" content="https://i.imgur.com/vBMvhAW.png">
 <meta property="og:image" content="https://i.imgur.com/ggNitgj.png">
 <meta property="og:image" content="https://i.imgur.com/vE5yIwn.png">
-<meta property="og:updated_time" content="2018-10-04T12:54:10.350Z">
+<meta property="og:updated_time" content="2018-10-04T13:06:40.614Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ES6 Promise 用法讲解">
 <meta name="twitter:description" content="Promise是一个构造函数，自己身上有all、reject、resolve这几个眼熟的方法，原型上有then、catch等同样很眼熟的方法。 那就new一个 var p = new Promise(function(resolve, reject){     //做一些异步操作     setTimeout(function(){     console.log(&amp;apos;执行完成&amp;apos;">
@@ -225,7 +225,7 @@
         
           
             <li class="menu-item menu-item-categories">
-              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/js/">js</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/js/Object-keys/">Object.keys</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/js/js遍历/">js遍历</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/js/异步/">异步</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/">工具类</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/MarkDown语法/">MarkDown语法</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/Smark/">Smark</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/hexo/">hexo</a><span class="category-list-count">1</span></li></ul></li></ul>
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/js/">js</a><span class="category-list-count">4</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/js/Object-keys/">Object.keys</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/js/js遍历/">js遍历</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/js/异步/">异步</a><span class="category-list-count">2</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/">工具类</a><span class="category-list-count">3</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/MarkDown语法/">MarkDown语法</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/Smark/">Smark</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/工具类/hexo/">hexo</a><span class="category-list-count">1</span></li></ul></li></ul>
             </li>
           
         
@@ -565,7 +565,7 @@ getNumber()
 );
 </code></pre><p>getNumber函数用来异步获取一个数字，2秒后执行完成，如果数字小于等于5，我们认为是“成功”了，调用resolve修改Promise的状态。否则我们认为是“失败”了，调用reject并传递一个参数，作为失败的原因。</p>
 <p>运行getNumber并且在then中传了两个参数，then方法可以接受两个参数，第一个对应resolve的回调，第二个对应reject的回调。所以我们能够分别拿到他们传过来的数据。多次运行这段代码，你会随机得到下面两种结果：</p>
-<p><img src="https://i.imgur.com/I53EybP.png" alt=""> 或者 <img src="https://i.imgur.com/S2jZdKw.png" alt=""></p>
+<p><img src="https://i.imgur.com/I53EybP.png" alt="">或者s<img src="https://i.imgur.com/S2jZdKw.png" alt=""></p>
 <h3 id="3-catch的用法"><a href="#3-catch的用法" class="headerlink" title="3. catch的用法"></a>3. catch的用法</h3><p>我们知道Promise对象除了then方法，还有一个catch方法，它是做什么用的呢？其实它和then的第二个参数一样，用来指定reject的回调，用法是这样：</p>
 <pre><code>getNumber()
 .then(function(data){
@@ -788,7 +788,7 @@ Promise
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -810,7 +810,7 @@ Promise
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">12</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
